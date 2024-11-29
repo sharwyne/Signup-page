@@ -1,0 +1,51 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+form {
+  border: 3px solid #ccc;
+}
+
+.loginimg {
+  text-align: center;
+  margin-top: 25px;
+}
+
+img {
+  border-radius: 300px;
+}
+
+.container input[type="text"] {
+  width: 100%;
+  display: inline-block;
+  margin: 8px 5px;
+  padding: 12px 20px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.container label {
+  font-weight: 700;
+}
+
+input[type="butn"] {
+  width: 100%;
+  display: inline-block;
+  border: none;
+  background-color: rgb(4, 84, 4);
+  padding: 5px;
+  text-align: center;
+}
+
+.cancel input[type="button"] {
+  background-color: rgb(255, 0, 0);
+  color: #fff;
+  border: none;
+  padding: 5px;
+}
+.cancel{
+  background-color: rgb(161, 159, 159);
+  justify-content: space-between;
+  display: flex;
+  padding: 2px;
+}
